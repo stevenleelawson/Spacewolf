@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.content {
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: flex-start;
+}
+.game {
+  border: 1rem solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 37vw;
+}
